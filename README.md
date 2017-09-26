@@ -1,3 +1,3 @@
 # DSwikert.github.io
 
-Learning HTML buy creating a GitHub page
+Learning HTML by creating a GitHub page

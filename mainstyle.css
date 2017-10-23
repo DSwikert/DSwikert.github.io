@@ -1,0 +1,34 @@
+/*
+#0A2239
+#53A2BE
+#1D84B5
+#132E32
+#176087
+*/
+nav{
+  background: #53A2BE;
+  margin: 1% auto 1% auto;
+  width: 40%;
+  text-align: center;
+  padding: .01%;
+  border: 4px solid #1D84B5;
+  border-radius: 9px;
+}
+
+body {
+  background: #0A2239;
+  color: #132E32;
+}
+
+.main {
+  background: #53A2BE;
+  margin: 0 auto 0 auto;
+  width: 80%;
+  text-align: center;
+  border: 4px solid #1D84B5;
+  border-radius: 5px;
+}
+
+nav p a {
+  padding: 6px;
+}

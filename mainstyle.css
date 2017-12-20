@@ -10,34 +10,59 @@ h1, h2, h3, h4 {
 
 
 
+
+/*Sections*/
 nav {
+	position: fixed;
 	width: 100%;
-	height: 10%;
-	margin: 0 0 0 0;
-	text-align: center;
-}
-nav a {
-	display: inline;
-	text-decoration: none;
-	margin: 0 1%;
+	background-color: black;
+	padding: 1%;
 }
 
-/* Project Page*/
+nav a {
+	text-decoration: none;
+	color: white;
+	margin: 0 1%;
+	
+}
+
+.about {
+	text-align: center;
+	width: 100%;
+	margin: 0;
+	padding: 20% 1%;
+	background-color: lightblue;
+}
+
+.about p {
+	width: 80%;
+	margin: auto;
+}
+
+#educationid {
+	width: 100%;
+	background-color: #00B7FF;
+	padding: 5% 1%;
+}
+
+#projectsid {
+	width: 100%;
+	background-color: #00FFD3;
+	padding: 5% 1%;
+}
+
+
 .project {
 	display: inline-block;
-	width: 30%;
+	width: 25%;
 	vertical-align: top;
 	margin: 2% 1%;
+	padding: 2%;
+	border-style: dotted;
+	border-width: 2px;
 }
 
-.projList {
-	width: 50%;
-	margin: 0 auto;
-}
-
-
-/*About Page*/
-ul {
+.classList {
 	width: 25%;
 	margin: 0 auto;
 }

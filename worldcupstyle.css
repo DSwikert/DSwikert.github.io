@@ -1,0 +1,65 @@
+/*
+#387aff - Blue Banner
+
+*/
+
+
+* {
+	margin: 0;
+	padding: 0;
+}
+
+
+nav {
+	position: fixed;
+	width: 100%;
+    padding: 1%;
+    background-color: black;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 3%;
+}
+
+#navItems {
+    margin: auto;
+    width: 60%;
+}
+
+.title {
+    width: 100%;
+    text-align: center;
+    padding: 5% 0 0 0;
+}
+
+
+.group {
+    margin: auto;
+    width: 60%;
+    padding: 5%;
+}
+
+.group h2 {
+    text-align: center;
+    padding: 1%;
+}
+
+
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td, th {
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+    background-color: gainsboro;
+}
